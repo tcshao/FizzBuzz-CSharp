@@ -8,9 +8,9 @@ namespace FizzBuzz
 {
     public static class FizzBuzzExtensions
     {
-        public static bool IsAFactorOf(this int source, int multiple)
+        public static bool IsAFactorOf(this int source, int target)
         {
-            return multiple % source == 0;
+            return target % source == 0;
         }
     }
 
