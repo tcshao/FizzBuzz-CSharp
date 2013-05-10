@@ -1,7 +1,7 @@
 FizzBuzz-CSharp
 ===============
 
-FizzBuzz in C# - With a semi-functiona programming style, optimized for readability
+FizzBuzz in C# - With a semi-functional programming style, optimized for readability
 
 original problem is stated as such:
 
