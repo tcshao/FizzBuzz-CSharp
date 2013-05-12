@@ -11,7 +11,7 @@ C# has changed quite a bit in it's last couple iterations.  The addition of LINQ
 
 I believe the most important aspects of code quality are 
 
-	1) It Works
+	1) It works.
 	2) It can easily be read by the next developer 
 		(see the aphorism: "Everyone else's code sucks, in 3 weeks your code becomes everyone elses")
 
