@@ -53,6 +53,12 @@
     <Compile Include="Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FizzBuzz.Console\FizzBuzz.Console.csproj">
+      <Project>{bae27ee2-6a81-4e32-8a5a-a2a8b6e0a5d4}</Project>
+      <Name>FizzBuzz.Console</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
