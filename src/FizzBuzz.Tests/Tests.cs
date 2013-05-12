@@ -25,7 +25,7 @@ namespace FizzBuzz.Tests
         }
 
         [TestMethod]
-        public void three_is_not_a_factor_of_four()
+        public void four_is_not_a_factor_of_three()
         {
             var expected = false;
             var actual = 4.IsAFactorOf(3);
@@ -79,10 +79,10 @@ namespace FizzBuzz.Tests
         [TestMethod]
         public void the_number_will_be_returned_as_string_if_it_is_not_a_multiple_of_three_or_five()
         {
-            int randomNum = 17;
+            int number = 17;
 
-            var expected = randomNum.ToString();
-            var actual = Program.GetFizzBuzz(randomNum);
+            var expected = number.ToString();
+            var actual = Program.GetFizzBuzz(number);
 
             Assert.AreEqual(actual, expected);
         }
@@ -90,10 +90,10 @@ namespace FizzBuzz.Tests
         [TestMethod]
         public void a_factor_of_three_will_return_the_number_and_Fizz()
         {
-            int randomNum = 9;
+            int number = 9;
 
             var expected = "9 - Fizz";
-            var actual = Program.GetFizzBuzz(randomNum);
+            var actual = Program.GetFizzBuzz(number);
 
             Assert.AreEqual(actual, expected);
         }
@@ -101,10 +101,10 @@ namespace FizzBuzz.Tests
         [TestMethod]
         public void a_factor_of_five_will_return_the_number_and_Buzz()
         {
-            int randomNum = 20;
+            int number = 20;
 
             var expected = "20 - Buzz";
-            var actual = Program.GetFizzBuzz(randomNum);
+            var actual = Program.GetFizzBuzz(number);
 
             Assert.AreEqual(actual, expected);
         }
@@ -112,10 +112,10 @@ namespace FizzBuzz.Tests
         [TestMethod]
         public void a_factor_of_fifteen_will_return_the_number_and_FizzBuzz()
         {
-            int randomNum = 45;
+            int number = 45;
 
             var expected = "45 - FizzBuzz";
-            var actual = Program.GetFizzBuzz(randomNum);
+            var actual = Program.GetFizzBuzz(number);
 
             Assert.AreEqual(actual, expected);
         }
