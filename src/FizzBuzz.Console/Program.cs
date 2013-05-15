@@ -1,7 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
-namespace FizzBuzz
+namespace FizzBuzz.Console
 {
     public static class FizzBuzzExtensions
     {
@@ -37,7 +36,7 @@ namespace FizzBuzz
             Enumerable.Range(0, 100)
                 .Select(GetFizzBuzz)
                 .ToList()
-                .ForEach(Console.WriteLine);
+                .ForEach(System.Console.WriteLine);
         }
     }
 }

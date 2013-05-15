@@ -1,6 +1,6 @@
 ﻿using System;
+using FizzBuzz.Console;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FizzBuzz;
 
 namespace FizzBuzz.Tests
 {
@@ -66,7 +66,7 @@ namespace FizzBuzz.Tests
             var expected = true;
             int randomNum = 1;
 
-            while(!15.IsAFactorOf(randomNum))
+            while (!15.IsAFactorOf(randomNum))
             {
                 randomNum = new Random().Next();
             }
